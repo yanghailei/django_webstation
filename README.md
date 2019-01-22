@@ -22,8 +22,8 @@ A Django test, follow Django official tutorial.
 
 ## Creating a project
 
-
 >> django-admin startproject mysite
+
 The mysite is the project name
 The dir tree like:
   mysite/
