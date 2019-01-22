@@ -20,6 +20,20 @@ A Django test, follow Django official tutorial.
 
 >> python -m django --version
 
+## Creating a project
 
+
+>> django-admin startproject mysite
+The mysite is the project name
+The dir tree like:
+  mysite/
+      manage.py
+      mysite/
+          __init__.py
+          settings.py
+          urls.py
+          wsgi.py
+          
+          
 
 https://github.com/yanghailei/django_webstation
