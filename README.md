@@ -3,28 +3,42 @@ A Django test, follow Django official tutorial.
 
 ## Create a Django project
 
-'''c\c++
+```Bash
 mkdir webproject
-'''
+```
 
-'cd webproject'
+```Bash
+cd webproject
+```
 
-'python3 -m venv venv'
+```Bash
+python3 -m venv venv
+```
 
-'source venv/bin/activate'
+```Bash
+source venv/bin/activate
+```
 
-'python -m pip install --upgrade pipCollecting pip'
+```Bash
+python -m pip install --upgrade pipCollecting pip
+```
 
-' pip install django '
+```Bash
+pip install django
+```
 
 
 ## Check Django version
 
-' python -m django --version '
+```Bash
+python -m django --version
+```
 
 ## Creating a project
 
->> django-admin startproject mysite
+```Bash
+django-admin startproject mysite
+```
 
 The mysite is the project name
 The dir tree like:
