@@ -3,7 +3,9 @@ A Django test, follow Django official tutorial.
 
 ## Create a Django project
 
-'mkdir webproject'
+'''C\C++
+mkdir webproject
+'''
 
 'cd webproject'
 
