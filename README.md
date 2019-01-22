@@ -42,6 +42,7 @@ django-admin startproject mysite
 
 The mysite is the project name
 The dir tree like:
+```Bash
   mysite/
       manage.py
       mysite/
@@ -49,6 +50,7 @@ The dir tree like:
           settings.py
           urls.py
           wsgi.py
+```
           
           
 
