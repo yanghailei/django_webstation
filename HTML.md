@@ -45,8 +45,8 @@ strong> 或者 em>意味着你要呈现的文本是重要的，所以要突出�
 ```
 
 ```
-<head> 元素包含了所有的头部标签元素。在 <head>元素中你可以插入脚本（scripts）, 样式文件（CSS），及各种meta信息。
-可以添加在头部区域的元素标签为: <title>, <style>, <meta>, <link>, <script>, <noscript>, and <base>.
+<head> 元素包含了所有的头部标签元素。在 head>元素中你可以插入脚本（scripts）, 样式文件（CSS），及各种meta信息。
+可以添加在头部区域的元素标签为: title>, style>, meta>, link>, script>, noscript>, and base>.
 ```
 
 
@@ -102,4 +102,4 @@ strong> 或者 em>意味着你要呈现的文本是重要的，所以要突出�
 每30秒 刷新一次当前页面:
 > meta http-equiv="refresh" content="30">
 
-
+<div style="color:#40B31F;">Colors
