@@ -102,4 +102,23 @@ strong> 或者 em>意味着你要呈现的文本是重要的，所以要突出�
 每30秒 刷新一次当前页面:
 > meta http-equiv="refresh" content="30">
 
-<div style="color:#B4009E;">Colors
+
+# 内部样式表
+> 当单个文件需要特别样式时，就可以使用内部样式表。你可以在 <head> 部分通过 <style>标签定义内部样式表:
+```html
+<head>
+<style type="text/css">
+body {background-color:yellow;}
+p {color:blue;}
+</style>
+</head>
+```
+
+
+
+<p style="font-family:arial;color:red;font-size:20px;">A paragraph.</p>
+
+<h2 style="background-color:red;">This is a heading</h2>
+
+<h1 style="text-align:center;">Center-aligned heading</h1>
+
