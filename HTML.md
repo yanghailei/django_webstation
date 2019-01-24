@@ -102,4 +102,4 @@ strong> 或者 em>意味着你要呈现的文本是重要的，所以要突出�
 每30秒 刷新一次当前页面:
 > meta http-equiv="refresh" content="30">
 
-<div style="color:#40B31F;">Colors
+<div style="color:#B4009E;">Colors
