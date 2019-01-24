@@ -2,10 +2,13 @@
 
 # HTML 元素 = 开始标签 + 元素内容 + 结束标签
 
-# <img src="zmypic.png" width="100" height="150">
-# <a href="http://www.baidu.com">这是一个链接</a>
-# <p>这是一个段落。</p>
-# <p>这是另外一个段落。</p>
+图片
+<img src="zmypic.png" width="100" height="150">
+链接
+<a href="http://www.baidu.com">这是一个链接</a>
+段落
+<p>这是一个段落。</p>
+
 
 # Tips
 > 即使您忘记了使用结束标签，大多数浏览器也会正确地显示 HTML，因为关闭标签是可选的。
