@@ -1,5 +1,5 @@
 # django_webstation
-A Django test, follow Django official tutorial.
+A Django test, following Django official tutorial.
 
 ## Create a Django project
 
