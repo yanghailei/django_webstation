@@ -104,7 +104,7 @@ strong> 或者 em>意味着你要呈现的文本是重要的，所以要突出�
 
 
 # 内部样式表
-> 当单个文件需要特别样式时，就可以使用内部样式表。你可以在 <head> 部分通过 <style>标签定义内部样式表:
+> 当单个文件需要特别样式时，就可以使用内部样式表。你可以在 head> 部分通过 style>标签定义内部样式表:
 ```html
 <head>
 <style type="text/css">
@@ -113,12 +113,84 @@ p {color:blue;}
 </style>
 </head>
 ```
+# 外部样式表
+> 当样式需要被应用到很多页面的时候，外部样式表将是理想的选择。使用外部样式表，你就可以通过更改一个文件来改变整个站点的外观。
+```html
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+```
+
+# 在 HTML 中，图像由img> 标签定义。img> 是空标签，意思是说，它只包含属性，并且没有闭合标签。
+要在页面上显示图像，你需要使用源属性（src）。src 指 "source"。源属性的值是图像的 URL 地址。
+alt 属性用来为图像定义一串预备的可替换的文本。替换文本属性的值是用户定义的。
+URL 指存储图像的位置。
+在浏览器无法载入图像时，替换文本属性告诉读者她们失去的信息。此时，浏览器将显示这个替代性的文本而不是图像。为页面上的图像都加上替换文本属性是个好习惯，这样有助于更好的显示信息，并且对于那些使用纯文本浏览器的人来说是非常有用的。
+定义图像的语法是：
+```html
+<img src="url" alt="some_text">
+```
+p style="font-family:arial;color:red;font-size:20px;">A paragraph.</p>
+h2 style="background-color:red;">This is a heading</h2>
+h1 style="text-align:center;">Center-aligned heading</h1>
+
+# HTML 表格
+表格由 table> 标签来定义。每个表格均有若干行（由 tr> 标签定义），每行被分割为若干单元格（由 td> 标签定义）。字母 td 指表格数据（table data），即数据单元格的内容。数据单元格可以包含文本、图片、列表、段落、表单、水平线、表格等等。/p>。表格的表头使用 <th> 标签进行定义。
+```html
+<table border="1">
+  <tr>
+    <th>Header 1</th>
+    <th>Header 2</th>
+  </tr>
+  <tr>
+    <td>row 1, cell 1</td>
+    <td>row 1, cell 2</td>
+  </tr>
+  <tr>
+    <td>row 2, cell 1</td>
+    <td>row 2, cell 2</td>
+  </tr>
+</table>
+```
+
+
+# HTML无序列表
+无序列表是一个项目的列表，此列项目使用粗体圆点（典型的小黑圆圈）进行标记。无序列表使用 li> 标签
+```html
+<ul>
+  <li>Coffee</li>
+  <li>Milk</li>
+</ul>
+```
+# HTML 有序列表
+同样，有序列表也是一列项目，列表项目使用数字进行标记。 有序列表始于 ol> 标签。每个列表项始于 li> 标签。列表项项使用数字来标记。
+```html
+<ol>
+<li>Coffee</li>
+<li>Milk</li>
+</ol>
+```
+
+# HTML 自定义列表
+自定义列表不仅仅是一列项目，而是项目及其注释的组合。自定义列表以 dl> 标签开始。每个自定义列表项以 dt> 开始。每个自定义列表项的定义以 dd> 开始。
+```html
+<dl>
+  <dt>Coffee</dt>
+    <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+    <dd>- white cold drink</dd>
+</dl>
+```
+# HTML 脚本
+noscript> 标签提供无法使用脚本时的替代内容，比方在浏览器禁用脚本时，或浏览器不支持客户端脚本时。noscript>元素可包含普通 HTML 页面的 body 元素中能够找到的所有元素。只有在浏览器不支持脚本或者禁用脚本时，才会显示 <noscript> 元素中的内容：
+```html
+<script>
+document.write("Hello World!")
+</script>
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+```
 
 
 
-<p style="font-family:arial;color:red;font-size:20px;">A paragraph.</p>
 
-<h2 style="background-color:red;">This is a heading</h2>
-
-<h1 style="text-align:center;">Center-aligned heading</h1>
 
