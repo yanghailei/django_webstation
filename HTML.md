@@ -1,4 +1,4 @@
-# <h1> 这是一个HTML的简易教程 </h1>
+# h1> 这是一个HTML的简易教程 </h1>
 
 # HTML 元素 = 开始标签 + 元素内容 + 结束标签
 
@@ -13,35 +13,35 @@
 
 
 # Tips
-> “即使您忘记了使用结束标签，大多数浏览器也会正确地显示 HTML，因为关闭标签是可选的。”
+> 即使您忘记了使用结束标签，大多数浏览器也会正确地显示 HTML，因为关闭标签是可选的。”
 
-> “HTML 标签对大小写不敏感：<P> 等同于 <p>。许多网站都使用大写的 HTML 标签。”
+> HTML 标签对大小写不敏感：P> 等同于 p>。许多网站都使用大写的 HTML 标签。”
 
-> “<!-- 这是一个注释 -->”
+> !-- 这是一个注释 -->”
 
-> “如果您希望在不产生一个新段落的情况下进行换行（新行），请使用 <br /> 标签：”
+> “如果您希望在不产生一个新段落的情况下进行换行（新行），请使用 br /> 标签：”
 
-> <h1> 定义最大的标题。 <h6> 定义最小的标题。
+> h1> 定义最大的标题。 h6> 定义最小的标题。
 
-> <hr>	定义水平线
+> hr>	定义水平线
 
 > 当显示页面时，浏览器会移除源代码中多余的空格和空行。所有连续的空格或空行都会被算作一个空格。需要注意的是，HTML 代码中的所有连续的空行（换行）也被显示为一个空格。
 
-> <a href="/" target="_blank">访问 ziqiangxuetang.com!</a> 如果你将 target 属性设置为 "_blank", 链接将在新窗口打开
+> a href="/" target="_blank">访问 ziqiangxuetang.com! /a> 如果你将 target 属性设置为 "_blank", 链接将在新窗口打开
 
 > id属性可用于创建在一个HTML文档书签标记。书签是不以任何特殊的方式显示，在HTML文档中是不显示的，所以对于读者来说是隐藏的。
 
-> <title> - 定义了HTML文档的标题 | 使用 <title> 标签定义HTML文档的标题
+> title> - 定义了HTML文档的标题 | 使用 title> 标签定义HTML文档的标题
 
-> <base> - 定义了所有链接的URL | 使用 <base> 定义页面中所有链接默认的链接目标地址。
+> base> - 定义了所有链接的URL | 使用 base> 定义页面中所有链接默认的链接目标地址。
 
-> <meta> - 提供了HTML文档的meta标记 | 使用 <meta> 元素来描述HTML文档的描述，关键词，作者，字符集等。
+> meta> - 提供了HTML文档的meta标记 | 使用 meta> 元素来描述HTML文档的描述，关键词，作者，字符集等。
 
 ```
 通常标签 <strong> 替换加粗标签 <b> 来使用, <em> 替换 <i>标签使用。
 然而，这些标签的含义是不同的：
-<b> 与<i> 定义粗体或斜体文本。
-<strong> 或者 <em>意味着你要呈现的文本是重要的，所以要突出显示。现今所有主要浏览器都能渲染各种效果的字体。不过，未来浏览器可能会支持更好的渲染效果。
+b> 与 i> 定义粗体或斜体文本。
+strong> 或者 em>意味着你要呈现的文本是重要的，所以要突出显示。现今所有主要浏览器都能渲染各种效果的字体。不过，未来浏览器可能会支持更好的渲染效果。
 ```
 
 ```
@@ -67,12 +67,12 @@
 |style |	规定元素的行内样式（inline style） title text 规定元素的额外信息（可在工具提示中显示）|
 |title | 描述了元素的额外信息 (作为工具条使用)|
 
-# <title> 元素:
+# title> 元素:
 1. 义了浏览器工具栏的标题
 2. 当网页添加到收藏夹时，显示在收藏夹中的标题
 3. 显示在搜索引擎结果页面的标题
 
-# <meta> 元素
+# meta> 元素
 1. meta标签描述了一些基本的元数据。
 2. meta标签提供了元数据.元数据也不显示在页面上，但会被浏览器解析。
 3. META元素通常用于指定网页的描述，关键词，文件的最后修改时间，作者，和其他元数据。
@@ -82,21 +82,24 @@
 # HTML head 元素
 |标签	|描述|
 | ------------- |:--------------------------------:|
-| <head>	| 定义了文档的信息 |
-| <title>	| 定义了文档的标题 |
-| <base>	| 定义了页面链接标签的默认链接地址 |
-| <link>	| 定义了一个文档和外部资源之间的关系 |
-| <meta>	| 定义了HTML文档中的元数据 |
-| <script>	| 定义了客户端的脚本文件 |
-| <style>	| 定义了HTML文档的样式文件 |
+| head	| 定义了文档的信息 |
+| title	| 定义了文档的标题 |
+| base	| 定义了页面链接标签的默认链接地址 |
+| link	| 定义了一个文档和外部资源之间的关系 |
+| meta	| 定义了HTML文档中的元数据 |
+| script	| 定义了客户端的脚本文件 |
+| style	| 定义了HTML文档的样式文件 |
 
 为搜索引擎定义关键词:
-> <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
+> meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
+
 为网页定义描述内容:
-> <meta name="description" content="Free Web tutorials on HTML and CSS">
+> meta name="description" content="Free Web tutorials on HTML and CSS">
+
 定义网页作者:
-> <meta name="author" content="Hege Refsnes">
+> meta name="author" content="Hege Refsnes">
+
 每30秒 刷新一次当前页面:
-> <meta http-equiv="refresh" content="30">
+> meta http-equiv="refresh" content="30">
 
 
